@@ -12,6 +12,12 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void CreditsButton()
+    {
+        SceneManager.LoadScene("Credits");
+
+    }
+
     public void SettingsButton()
     {
         settingsWindow.SetActive(true);

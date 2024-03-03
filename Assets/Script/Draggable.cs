@@ -7,21 +7,8 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            // Calculate offset from mouse position to object position
-            offset = transform.position - GetMouseWorldPosition();
-            isDragging = true;
-        }
-    }
-
-    private void OnMouseDrag()
-    {
-        if (isDragging)
-        {
-            // Update object position while dragging
-            transform.position = GetMouseWorldPosition() + offset;
-        }
+        isDragging = true;
+        offset = gameObject.transform.position - GetMouseWorldPos();
     }
 
     private void OnMouseUp()
@@ -29,11 +16,19 @@ public class Draggable : MonoBehaviour
         isDragging = false;
     }
 
-    private Vector3 GetMouseWorldPosition()
+    private void Update()
     {
-        // Get mouse position in screen space
-        Vector3 mousePosition = Input.mousePosition;
-        // Convert mouse position to world space
-        return Camera.main.ScreenToWorldPoint(mousePosition);
+        if (isDragging)
+        {
+            Vector3 mousePos = GetMouseWorldPos();
+            gameObject.transform.position = new Vector3(mousePos.x + offset.x, mousePos.y + offset.y, gameObject.transform.position.z);
+        }
+    }
+
+    private Vector3 GetMouseWorldPos()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = Camera.main.nearClipPlane;
+        return Camera.main.ScreenToWorldPoint(mousePos);
     }
 }

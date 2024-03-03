@@ -83,8 +83,11 @@ public class SpawnBlocks : MonoBehaviour
         // Rotate the spawned block by the random rotation angle around the Z-axis
         newBlock.transform.Rotate(Vector3.forward, randomRotation);
         // Add Rigidbody component to the spawned block
-        Rigidbody rb = newBlock.AddComponent<Rigidbody>();
-        rb.useGravity = false;
+
+        Rigidbody2D rb = newBlock.AddComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+
+        BoxCollider2D box = newBlock.AddComponent<BoxCollider2D>();
 
         // Add CustomGravity component to the spawned block
         CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();
@@ -109,8 +112,10 @@ public class SpawnBlocks : MonoBehaviour
         // Rotate the spawned block by the random rotation angle around the Z-axis
         newBlock.transform.Rotate(Vector3.forward, randomRotation);
         // Add Rigidbody component to the spawned block
-        Rigidbody rb = newBlock.AddComponent<Rigidbody>();
-        rb.useGravity = false;
+        Rigidbody2D rb = newBlock.AddComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+
+        BoxCollider2D box = newBlock.AddComponent <BoxCollider2D>();
 
         // Add CustomGravity component to the spawned block
         CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();

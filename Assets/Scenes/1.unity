@@ -18265,7 +18265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   passivBin: {fileID: 225520305}
-  yOffset: 0.5
+  yOffset: 0.1
 --- !u!1 &375480103
 GameObject:
   m_ObjectHideFlags: 0
@@ -30102,7 +30102,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.29
+  orthographic size: 5.75
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -30127,7 +30127,7 @@ Transform:
   m_GameObject: {fileID: 687425753}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.75, y: 1.98, z: -10}
+  m_LocalPosition: {x: -1.75, y: 1.34, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -68628,7 +68628,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681147959}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: fa8827e2293d2ea4ab76dd66a27e3897, type: 2}
   m_audioClip: {fileID: 0}
@@ -68725,7 +68725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681147959}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -79267,7 +79267,7 @@ Transform:
   m_GameObject: {fileID: 1923721059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.99, y: 9.22, z: 59.885498}
+  m_LocalPosition: {x: -6.99, y: 7.7, z: 59.885498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -88272,5 +88272,5 @@ SceneRoots:
   - {fileID: 1016438458}
   - {fileID: 806219012}
   - {fileID: 225520307}
-  - {fileID: 1971157343}
   - {fileID: 1681147962}
+  - {fileID: 1971157343}

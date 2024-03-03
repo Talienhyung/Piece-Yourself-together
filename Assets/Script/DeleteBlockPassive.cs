@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DeleteBlockPassive : MonoBehaviour
 {
+    public float deleteLvl = -6f;
     // Define a delegate type for the event
     public delegate void BlockDeleted();
     // Define a static event to be raised when the block is deleted
@@ -13,12 +14,13 @@ public class DeleteBlockPassive : MonoBehaviour
     void Update()
     {
         // Check if the block's Y position is below -6
-        if (transform.position.y < -6f)
+        if (transform.position.y < deleteLvl)
         {
             // Raise the OnBlockDeleted event
             OnBlockDeleted?.Invoke();
             // Destroy the block
             Destroy(gameObject);
+
         }
     }
 }

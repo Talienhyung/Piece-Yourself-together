@@ -41,7 +41,7 @@ public class Draggable : MonoBehaviour
 
     private void RotateObject()
     {
-        gameObject.transform.Rotate(Vector3.forward, 90f);
+        transform.Rotate(Vector3.forward, 90f);
     }
 }
 

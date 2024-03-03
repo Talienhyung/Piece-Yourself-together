@@ -14,6 +14,8 @@ public class DragDrop : MonoBehaviour
 
     Vector2 objectinitPos;
 
+    Image finalPos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +35,6 @@ public class DragDrop : MonoBehaviour
             return;
         }
         objectToDrag.transform.position = Input.mousePosition;
-        
     }
 
     public void DropObject()
@@ -53,6 +54,7 @@ public class DragDrop : MonoBehaviour
         if (Distance < Dropdistance)
         {
             objectToDrag.transform.position = imageGood.transform.position;
+            finalPos = imageGood;
             isLocked = true;
             return;
         }
@@ -66,7 +68,7 @@ public class DragDrop : MonoBehaviour
     {
         if (isLocked)
         {
-            objectToDrag.transform.position = ObjectDragToPos.transform.position;
+            objectToDrag.transform.position = finalPos.transform.position;
         }
     }
 

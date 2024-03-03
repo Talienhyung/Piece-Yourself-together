@@ -12,7 +12,7 @@ public class SpawnBlocks : MonoBehaviour
     public float specialEventChance = 10f; // 10% chance by default
 
     // Special event variables
-    public GameObject specialPrefab; // The special prefab to spawn
+    public GameObject[] lovePrefabs; // The Love prefab to spawn
     public int specialEventDurationTicks = 5; // Duration of the special event in ticks
     private bool isSpecialEventActive = false;
     private int specialEventTickCounter = 0;
@@ -43,7 +43,7 @@ public class SpawnBlocks : MonoBehaviour
             else
             {
                 // Spawn special object during the special event
-                SpawnSpecialObject();
+                SpawnLoveObject();
             }
         }
         else
@@ -94,8 +94,10 @@ public class SpawnBlocks : MonoBehaviour
         customGravityComponent.downwardForce = customGravity; // Set the custom gravity value
     }
 
-    private void SpawnSpecialObject()
+    private void SpawnLoveObject()
     {
+        int randomIndex = Random.Range(0, lovePrefabs.Length);
+        GameObject prefabToSpawn = lovePrefabs[randomIndex];
         // Spawn the special prefab
         // Generate a random X offset within the range of +2 and -2
         float randomXOffset = Random.Range(-2f, 2f);
@@ -107,7 +109,7 @@ public class SpawnBlocks : MonoBehaviour
         Vector3 spawnPosition = new Vector3(spawnPoint.position.x + randomXOffset, spawnPoint.position.y, spawnPoint.position.z);
 
         // Spawn the selected prefab at the calculated spawnPosition with the random rotation
-        GameObject newBlock = Instantiate(specialPrefab, spawnPosition, Quaternion.identity);
+        GameObject newBlock = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
 
         // Rotate the spawned block by the random rotation angle around the Z-axis
         newBlock.transform.Rotate(Vector3.forward, randomRotation);

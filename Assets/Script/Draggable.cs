@@ -7,8 +7,15 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        isDragging = true;
-        offset = gameObject.transform.position - GetMouseWorldPos();
+        if (Input.GetMouseButton(0)) // Left mouse button
+        {
+            isDragging = true;
+            offset = gameObject.transform.position - GetMouseWorldPos();
+        }
+        else if (Input.GetMouseButton(1)) // Right mouse button
+        {
+            RotateObject();
+        }
     }
 
     private void OnMouseUp()
@@ -31,4 +38,10 @@ public class Draggable : MonoBehaviour
         mousePos.z = Camera.main.nearClipPlane;
         return Camera.main.ScreenToWorldPoint(mousePos);
     }
+
+    private void RotateObject()
+    {
+        gameObject.transform.Rotate(Vector3.forward, 90f);
+    }
 }
+

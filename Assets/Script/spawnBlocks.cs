@@ -12,7 +12,10 @@ public class SpawnBlocks : MonoBehaviour
     public float specialEventChance = 10f; // 10% chance by default
 
     // Special event variables
-    public GameObject[] lovePrefabs; // The Love prefab to spawn
+    public GameObject[] lovePrefabs;
+    public GameObject[] TraumaPrefabs;
+    public GameObject[] RestPrefabs;
+    public GameObject[] MentalRestPrefabs;
     public int specialEventDurationTicks = 5; // Duration of the special event in ticks
     private bool isSpecialEventActive = false;
     private int specialEventTickCounter = 0;
@@ -118,6 +121,96 @@ public class SpawnBlocks : MonoBehaviour
         rb.gravityScale = 0;
 
         BoxCollider2D box = newBlock.AddComponent <BoxCollider2D>();
+
+        // Add CustomGravity component to the spawned block
+        CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();
+        customGravityComponent.downwardForce = customGravity; // Set the custom gravity value
+    }
+
+    private void SpawnTraumaObject()
+    {
+        int randomIndex = Random.Range(0, TraumaPrefabs.Length);
+        GameObject prefabToSpawn = TraumaPrefabs[randomIndex];
+        // Spawn the special prefab
+        // Generate a random X offset within the range of +2 and -2
+        float randomXOffset = Random.Range(-2f, 2f);
+
+        // Generate a random rotation angle in increments of 90 degrees (0, 90, 180, or 270 degrees)
+        float randomRotation = Random.Range(0, 4) * 90f;
+
+        // Calculate the spawn position with the random X offset
+        Vector3 spawnPosition = new Vector3(spawnPoint.position.x + randomXOffset, spawnPoint.position.y, spawnPoint.position.z);
+
+        // Spawn the selected prefab at the calculated spawnPosition with the random rotation
+        GameObject newBlock = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+
+        // Rotate the spawned block by the random rotation angle around the Z-axis
+        newBlock.transform.Rotate(Vector3.forward, randomRotation);
+        // Add Rigidbody component to the spawned block
+        Rigidbody2D rb = newBlock.AddComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+
+        BoxCollider2D box = newBlock.AddComponent<BoxCollider2D>();
+
+        // Add CustomGravity component to the spawned block
+        CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();
+        customGravityComponent.downwardForce = customGravity; // Set the custom gravity value
+    }
+
+    private void SpawnRestObject()
+    {
+        int randomIndex = Random.Range(0, RestPrefabs.Length);
+        GameObject prefabToSpawn = RestPrefabs[randomIndex];
+        // Spawn the special prefab
+        // Generate a random X offset within the range of +2 and -2
+        float randomXOffset = Random.Range(-2f, 2f);
+
+        // Generate a random rotation angle in increments of 90 degrees (0, 90, 180, or 270 degrees)
+        float randomRotation = Random.Range(0, 4) * 90f;
+
+        // Calculate the spawn position with the random X offset
+        Vector3 spawnPosition = new Vector3(spawnPoint.position.x + randomXOffset, spawnPoint.position.y, spawnPoint.position.z);
+
+        // Spawn the selected prefab at the calculated spawnPosition with the random rotation
+        GameObject newBlock = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+
+        // Rotate the spawned block by the random rotation angle around the Z-axis
+        newBlock.transform.Rotate(Vector3.forward, randomRotation);
+        // Add Rigidbody component to the spawned block
+        Rigidbody2D rb = newBlock.AddComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+
+        BoxCollider2D box = newBlock.AddComponent<BoxCollider2D>();
+
+        // Add CustomGravity component to the spawned block
+        CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();
+        customGravityComponent.downwardForce = customGravity; // Set the custom gravity value
+    }
+
+    private void SpawnMentalRestObject()
+    {
+        int randomIndex = Random.Range(0, RestPrefabs.Length);
+        GameObject prefabToSpawn = RestPrefabs[randomIndex];
+        // Spawn the special prefab
+        // Generate a random X offset within the range of +2 and -2
+        float randomXOffset = Random.Range(-2f, 2f);
+
+        // Generate a random rotation angle in increments of 90 degrees (0, 90, 180, or 270 degrees)
+        float randomRotation = Random.Range(0, 4) * 90f;
+
+        // Calculate the spawn position with the random X offset
+        Vector3 spawnPosition = new Vector3(spawnPoint.position.x + randomXOffset, spawnPoint.position.y, spawnPoint.position.z);
+
+        // Spawn the selected prefab at the calculated spawnPosition with the random rotation
+        GameObject newBlock = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+
+        // Rotate the spawned block by the random rotation angle around the Z-axis
+        newBlock.transform.Rotate(Vector3.forward, randomRotation);
+        // Add Rigidbody component to the spawned block
+        Rigidbody2D rb = newBlock.AddComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+
+        BoxCollider2D box = newBlock.AddComponent<BoxCollider2D>();
 
         // Add CustomGravity component to the spawned block
         CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();

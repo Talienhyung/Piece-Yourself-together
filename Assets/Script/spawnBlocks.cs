@@ -92,15 +92,19 @@ public class SpawnBlocks : MonoBehaviour
                 {
                     case SpecialEventType.Love:
                         SpawnLoveObject();
+                        SpawnNonInteractableText(loveMessages, loveTextPrefab);
                         break;
                     case SpecialEventType.Trauma:
                         SpawnTraumaObject();
+                        SpawnNonInteractableText(traumaMessages, traumaTextPrefab);
                         break;
                     case SpecialEventType.Rest:
                         SpawnRestObject();
+                        SpawnNonInteractableText(restMessages, restTextPrefab);
                         break;
                     case SpecialEventType.MentalRest:
-                        SpawnMentalRestObject();
+                        SpawnNonInteractableText(mentalRestMessages, mentalRestTextPrefab);
+
                         break;
                 }
             }
@@ -178,7 +182,7 @@ public class SpawnBlocks : MonoBehaviour
         Rigidbody2D rb = newBlock.AddComponent<Rigidbody2D>();
         rb.gravityScale = 0;
 
-        BoxCollider2D box = newBlock.AddComponent <BoxCollider2D>();
+        BoxCollider2D box = newBlock.AddComponent<BoxCollider2D>();
 
         // Add CustomGravity component to the spawned block
         CustomGravity customGravityComponent = newBlock.AddComponent<CustomGravity>();

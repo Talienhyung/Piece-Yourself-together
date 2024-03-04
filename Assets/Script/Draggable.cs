@@ -131,6 +131,7 @@ public class Draggable : MonoBehaviour
         }
         else if (locked)
         {
+            scrollMode(Input.mouseScrollDelta.y);
             gameObject.transform.position = endpos;
         }
     }
@@ -371,10 +372,8 @@ public class Draggable : MonoBehaviour
         {
             case string n when n.Contains("cube"):
                 return namePiece.Contains("cube");
-                break;
             case string n when n.Contains("(0)"):
                 return namePiece.Contains("(0)");
-                break;
 
             case string n when n.Contains("(4)"):
                 switch (gameObject.transform.rotation.eulerAngles.z)
@@ -382,7 +381,6 @@ public class Draggable : MonoBehaviour
                     case 0:
                     case 180:
                         return (namePiece.Contains("(4)") && gameOb.transform.rotation.eulerAngles.z == 0)||( namePiece.Contains("(4)") && gameOb.transform.rotation.eulerAngles.z == 180);
-                        break;
 
                     case 90:
                     case 270:
@@ -396,7 +394,6 @@ public class Draggable : MonoBehaviour
                     case 0:
                     case 180:
                         return (namePiece.Contains("(1)") && gameOb.transform.rotation.eulerAngles.z == 0) || (namePiece.Contains("(1)") && gameOb.transform.rotation.eulerAngles.z == 180);
-                        break;  
 
                     case 90:
                     case 270:
@@ -409,17 +406,13 @@ public class Draggable : MonoBehaviour
                 {
                     case 0:
                         return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 0;
-                        break;
                     case 90:
                         return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 90;
-                        break;
 
                     case 180:
                         return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 180;
-                        break;
                     case 270:
                         return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 270;
-                        break;
                 }
                 break;
 
@@ -428,22 +421,32 @@ public class Draggable : MonoBehaviour
                 {
                     case 0:
                         return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 0;
-                        break;
                     case 90:
                         return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 90;
-                        break;
 
                     case 180:
                         return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 180;
-                        break;
                     case 270:
                         return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 270; 
-                        break;
                 }
                 break;
         }
         return false;
     }
-    
+
+    public float scrollSpeed = 100f; // Vitesse de défilement, à ajuster selon vos besoins
+
+    void scrollMode(float scrollDirection)
+    {
+        // Mise à jour de endpos en fonction de la direction du défilement
+        if (scrollDirection > 0)
+        {
+            endpos += Vector3.up * scrollSpeed * Time.deltaTime;
+        }
+        else if (scrollDirection < 0)
+        {
+            endpos += Vector3.down * scrollSpeed * Time.deltaTime;
+        }
+    }
 }
 

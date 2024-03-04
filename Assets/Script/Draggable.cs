@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Draggable : MonoBehaviour
 {
     private bool isDragging = false;
-    private bool locked = false;
+    public bool locked = false;
     private Vector3 offset;
     private Vector3 endpos;
     private bool isRightButtonDown = false;

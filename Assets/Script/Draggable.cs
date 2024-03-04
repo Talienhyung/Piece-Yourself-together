@@ -7,12 +7,24 @@ public class Draggable : MonoBehaviour
     private Vector3 offset;
     private bool isRightButtonDown = false;
     private Vector3 originalScale;
+    public AudioClip pickupSound;
+    public AudioClip dropSound;
 
     private int originalSortingOrder;
     private Renderer objectRenderer;
 
+    public float volume = 1.0f;
+    private AudioSource audioSource;
+
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        audioSource.volume = volume;
+
         originalScale = transform.localScale;
         objectRenderer = GetComponent<Renderer>();
         originalSortingOrder = objectRenderer.sortingOrder;
@@ -26,6 +38,12 @@ public class Draggable : MonoBehaviour
             offset = gameObject.transform.position - GetMouseWorldPos();
             // Scale up the object
             transform.localScale *= 1.1f; // You can adjust the scale factor as needed
+
+            // Play pickup sound
+            if (pickupSound != null)
+            {
+                audioSource.PlayOneShot(pickupSound);
+            }
 
             // Set the sorting order higher than other blocks
             objectRenderer.sortingOrder = GetHighestSortingOrder() + 1;
@@ -44,7 +62,14 @@ public class Draggable : MonoBehaviour
 
         // Restore the original sorting order
         objectRenderer.sortingOrder = originalSortingOrder;
+
+        // Play drop sound
+        if (dropSound != null)
+        {
+            audioSource.PlayOneShot(dropSound);
+        }
     }
+
 
     private void Update()
     {

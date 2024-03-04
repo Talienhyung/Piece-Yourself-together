@@ -18,6 +18,12 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void BackButton()
+    {
+        SceneManager.LoadScene("MainMenu");
+
+    }
+
     public void SettingsButton()
     {
         settingsWindow.SetActive(true);

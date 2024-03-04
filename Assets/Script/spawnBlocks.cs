@@ -65,13 +65,28 @@ public class SpawnBlocks : MonoBehaviour
         // Set the text content
         newText.GetComponent<TextMeshPro>().text = message;
 
+        MeshRenderer meshRenderer = newText.GetComponent<MeshRenderer>();
+        if (meshRenderer != null)
+        {
+            // Set the sorting order
+            meshRenderer.sortingOrder = 2;
+        }
+        else
+        {
+            Debug.LogError("MeshRenderer component not found on the spawned text object.");
+        }
+
         // Add Rigidbody component to enable gravity
         Rigidbody2D rb = newText.AddComponent<Rigidbody2D>();
-        rb.gravityScale = customGravity;
+        rb.gravityScale = 0.5f; // Adjust the gravity scale to make it slower
+
+        // Set initial angular velocity to create a slight turn
+        rb.angularVelocity = 20f;
 
         // Add CustomGravity component to control gravity behavior
         CustomGravity customGravityComponent = newText.AddComponent<CustomGravity>();
         customGravityComponent.downwardForce = customGravity;
+
     }
 
     private void Tick()
@@ -92,18 +107,14 @@ public class SpawnBlocks : MonoBehaviour
                 {
                     case SpecialEventType.Love:
                         SpawnLoveObject();
-                        SpawnNonInteractableText(loveMessages, loveTextPrefab);
                         break;
                     case SpecialEventType.Trauma:
                         SpawnTraumaObject();
-                        SpawnNonInteractableText(traumaMessages, traumaTextPrefab);
                         break;
                     case SpecialEventType.Rest:
                         SpawnRestObject();
-                        SpawnNonInteractableText(restMessages, restTextPrefab);
                         break;
                     case SpecialEventType.MentalRest:
-                        SpawnNonInteractableText(mentalRestMessages, mentalRestTextPrefab);
 
                         break;
                 }
@@ -294,18 +305,22 @@ public class SpawnBlocks : MonoBehaviour
         if (randomEventChance < loveChance)
         {
             currentSpecialEventType = SpecialEventType.Love;
+            SpawnNonInteractableText(loveMessages, loveTextPrefab);
         }
         else if (randomEventChance < loveChance + traumaChance)
         {
             currentSpecialEventType = SpecialEventType.Trauma;
+            SpawnNonInteractableText(traumaMessages, traumaTextPrefab);
         }
         else if (randomEventChance < loveChance + traumaChance + restChance)
         {
             currentSpecialEventType = SpecialEventType.Rest;
+            SpawnNonInteractableText(restMessages, restTextPrefab);
         }
         else
         {
             currentSpecialEventType = SpecialEventType.MentalRest;
+            SpawnNonInteractableText(mentalRestMessages, mentalRestTextPrefab);
         }
     }
 }

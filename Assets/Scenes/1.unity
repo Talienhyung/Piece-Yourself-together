@@ -18250,7 +18250,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 1923721060}
   tickRate: 2.2
   customGravity: 1
-  specialEventChance: 50
+  specialEventChance: 4
   lovePrefabs:
   - {fileID: 2131426752}
   - {fileID: 2046530604}

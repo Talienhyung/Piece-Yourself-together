@@ -25,88 +25,91 @@ public class Draggable : MonoBehaviour
 
     private void OnMouseUp()
     {
-        isDragging = false;
-        blockdetect();
-        if (onTile())
-        {
-            switch (name)
+        if (!locked) {
+            isDragging = false;
+            blockdetect();
+            if (onTile())
             {
-                case string n when n.Contains("cube"):
-                    endpos = blockPositions[0];
-                    break;
+                switch (name)
+                {
+                    case string n when n.Contains("cube"):
+                        endpos = blockPositions[0];
+                        break;
 
-                case string n when n.Contains("(0)"):
-                    endpos = blockPositions[0] + new Vector3(-0.2f, -0.2f, 0f);
-                    break;
+                    case string n when n.Contains("(0)"):
+                        endpos = blockPositions[0] + new Vector3(-0.2f, -0.2f, 0f);
+                        break;
 
-                case string n when n.Contains("(4)"):
-                    switch (gameObject.transform.rotation.eulerAngles.z)
-                    {
-                        case 0:
-                        case 180:
-                            endpos = blockPositions[0] + new Vector3(-0.2f, 0f, 0f);
-                            break;
+                    case string n when n.Contains("(4)"):
+                        switch (gameObject.transform.rotation.eulerAngles.z)
+                        {
+                            case 0:
+                            case 180:
+                                endpos = blockPositions[0] + new Vector3(-0.2f, 0f, 0f);
+                                break;
 
-                        case 90:
-                        case 270:
-                            endpos = blockPositions[0] + new Vector3(0f, -0.2f, 0f);
-                            break;
-                    }
-                    break;
+                            case 90:
+                            case 270:
+                                endpos = blockPositions[0] + new Vector3(0f, -0.2f, 0f);
+                                break;
+                        }
+                        break;
 
-                case string n when n.Contains("(1)"):
-                    switch (gameObject.transform.rotation.eulerAngles.z)
-                    {
-                        case 0:
-                        case 180:
-                            endpos = blockPositions[0] + new Vector3(0f, -0.6f, 0f);
-                            break;
+                    case string n when n.Contains("(1)"):
+                        switch (gameObject.transform.rotation.eulerAngles.z)
+                        {
+                            case 0:
+                            case 180:
+                                endpos = blockPositions[0] + new Vector3(0f, -0.6f, 0f);
+                                break;
 
-                        case 90:
-                        case 270:
-                            endpos = blockPositions[0] + new Vector3(0.6f, 0f, 0f);
-                            break;
-                    }
-                    break;
+                            case 90:
+                            case 270:
+                                endpos = blockPositions[0] + new Vector3(0.6f, 0f, 0f);
+                                break;
+                        }
+                        break;
 
-                case string n when n.Contains("(3)"):
-                    switch (gameObject.transform.rotation.eulerAngles.z)
-                    {
-                        case 0:
-                            endpos = blockPositions[0] + new Vector3(0.2f, -0.4f, 0f);
-                            break;
-                        case 90:
-                            endpos = blockPositions[0] + new Vector3(0.4f, 0.2f, 0f);
-                            break;
+                    case string n when n.Contains("(3)"):
+                        switch (gameObject.transform.rotation.eulerAngles.z)
+                        {
+                            case 0:
+                                endpos = blockPositions[0] + new Vector3(0.2f, -0.4f, 0f);
+                                break;
+                            case 90:
+                                endpos = blockPositions[0] + new Vector3(0.4f, 0.2f, 0f);
+                                break;
 
-                        case 180:
-                            endpos = blockPositions[0] + new Vector3(0.2f, -0.4f, 0f);
-                            break;
-                        case 270:
-                            endpos = blockPositions[0] + new Vector3(-0.4f, -0.2f, 0f);
-                            break;
-                    }
-                    break;
+                            case 180:
+                                endpos = blockPositions[0] + new Vector3(0.2f, -0.4f, 0f);
+                                break;
+                            case 270:
+                                endpos = blockPositions[0] + new Vector3(-0.4f, -0.2f, 0f);
+                                break;
+                        }
+                        break;
 
-                case string n when n.Contains("(2)"):
-                    switch (gameObject.transform.rotation.eulerAngles.z)
-                    {
-                        case 0:
-                            endpos = blockPositions[0] + new Vector3(0f, 0.2f, 0f);
-                            break;
-                        case 90:
-                            endpos = blockPositions[0] + new Vector3(-0.2f, 0f, 0f);
-                            break;
-                        case 180:
-                            endpos = blockPositions[0] + new Vector3(0f, -0.2f, 0f);
-                            break;
-                        case 270:
-                            endpos = blockPositions[0] + new Vector3(0.2f, 0f, 0f);
-                            break;
-                    }
-                    break;
+                    case string n when n.Contains("(2)"):
+                        switch (gameObject.transform.rotation.eulerAngles.z)
+                        {
+                            case 0:
+                                endpos = blockPositions[0] + new Vector3(0f, 0.2f, 0f);
+                                break;
+                            case 90:
+                                endpos = blockPositions[0] + new Vector3(-0.2f, 0f, 0f);
+                                break;
+                            case 180:
+                                endpos = blockPositions[0] + new Vector3(0f, -0.2f, 0f);
+                                break;
+                            case 270:
+                                endpos = blockPositions[0] + new Vector3(0.2f, 0f, 0f);
+                                break;
+                        }
+                        break;
+                }
+                locked = true;
+                gameObject.transform.SetParent(gridObject.transform);
             }
-            locked = true;
         }
     }
 
@@ -124,6 +127,7 @@ public class Draggable : MonoBehaviour
             {
                 StopCoroutine(WaitAndRotate());
             }
+            onOtherSame();
         }
         else if (locked)
         {
@@ -232,7 +236,7 @@ public class Draggable : MonoBehaviour
                         blockPositions.Add(center + new Vector3(-0.2f, 0.4f, 0f));
                         blockPositions.Add(center + new Vector3(0.2f, 0.4f, 0f));
                         blockPositions.Add(center + new Vector3(0.2f, 0f, 0f));
-                        blockPositions.Add(center + new Vector3(0.2f, 0.4f, 0f));
+                        blockPositions.Add(center + new Vector3(0.2f, -0.4f, 0f));
                         break;
                     case 270:
                         blockPositions.Add(center + new Vector3(0.4f, 0.2f, 0f));
@@ -288,26 +292,29 @@ public class Draggable : MonoBehaviour
 
         foreach (Transform childTransform in parentTransform)
         {
+        
             GameObject childObject = childTransform.gameObject;
 
-            foreach (Vector3 position in blockPositions)
-            {
-                // Créer des vecteurs de position en ne tenant compte que des composantes X et Y
-                Vector2 childPosXY = new Vector2(childTransform.position.x, childTransform.position.y);
-                Vector2 blockPosXY = new Vector2(position.x, position.y);
-
-                // Calculer la distance uniquement sur les axes X et Y
-                float distanceXY = Vector2.Distance(childPosXY, blockPosXY);
-                Debug.Log("position : " + childTransform.position);
-                Debug.Log("Distance XY : " + distanceXY);
-
-                // Si la distance XY est inférieure à 0.2, incrémenter le compteur good
-                if (distanceXY < 0.2f)
+            if (childObject.name.Contains("Tile")){ 
+                foreach (Vector3 position in blockPositions)
                 {
-                    blockPositions[blockPositions.IndexOf(position)] = childTransform.position;
-                    good++;
-                    gameObjectList.Add(childTransform.gameObject);
-                    break; // Sortir de la boucle interne si une position correspond
+                    // Créer des vecteurs de position en ne tenant compte que des composantes X et Y
+                    Vector2 childPosXY = new Vector2(childTransform.position.x, childTransform.position.y);
+                    Vector2 blockPosXY = new Vector2(position.x, position.y);
+
+                    // Calculer la distance uniquement sur les axes X et Y
+                    float distanceXY = Vector2.Distance(childPosXY, blockPosXY);
+                    Debug.Log("position : " + childTransform.position);
+                    Debug.Log("Distance XY : " + distanceXY);
+
+                    // Si la distance XY est inférieure à 0.2, incrémenter le compteur good
+                    if (distanceXY < 0.2f)
+                    {
+                        blockPositions[blockPositions.IndexOf(position)] = childTransform.position;
+                        good++;
+                        gameObjectList.Add(childTransform.gameObject);
+                        break; // Sortir de la boucle interne si une position correspond
+                    }
                 }
             }
 
@@ -324,5 +331,119 @@ public class Draggable : MonoBehaviour
         gameObjectList.Clear();
         return false;
     }
+
+    public void onOtherSame()
+    {
+        Transform parentTransform = gridObject.transform;
+
+        foreach (Transform childTransform in parentTransform)
+        {
+
+            GameObject childObject = childTransform.gameObject;
+            string cname = childObject.name;
+            if (!cname.Contains("Tile"))
+            {
+                if (samePiece(cname, childObject))
+                {
+                    Vector2 childPosXY = new Vector2(childTransform.position.x, childTransform.position.y);
+                    Vector2 blockPosXY = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
+
+                    // Calculer la distance uniquement sur les axes X et Y
+                    float distanceXY = Vector2.Distance(childPosXY, blockPosXY);
+
+                    // Si la distance XY est inférieure à 0.4, incrémenter le compteur good
+                    if (distanceXY < 0.4f)
+                    {
+                        endpos = childTransform.position;
+                        Destroy(childObject);
+                        gameObject.transform.SetParent(gridObject.transform);
+                        locked = true;
+                        return;
+                    }
+                }
+            }
+        }
+    }
+
+    public bool samePiece(string namePiece, GameObject gameOb)
+    {
+        switch (name)
+        {
+            case string n when n.Contains("cube"):
+                return namePiece.Contains("cube");
+                break;
+            case string n when n.Contains("(0)"):
+                return namePiece.Contains("(0)");
+                break;
+
+            case string n when n.Contains("(4)"):
+                switch (gameObject.transform.rotation.eulerAngles.z)
+                {
+                    case 0:
+                    case 180:
+                        return (namePiece.Contains("(4)") && gameOb.transform.rotation.eulerAngles.z == 0)||( namePiece.Contains("(4)") && gameOb.transform.rotation.eulerAngles.z == 180);
+                        break;
+
+                    case 90:
+                    case 270:
+                        return (namePiece.Contains("(4)") && gameOb.transform.rotation.eulerAngles.z == 90) || (namePiece.Contains("(4)") && gameOb.transform.rotation.eulerAngles.z == 270);   
+                }
+                break;
+
+            case string n when n.Contains("(1)"):
+                switch (gameObject.transform.rotation.eulerAngles.z)
+                {
+                    case 0:
+                    case 180:
+                        return (namePiece.Contains("(1)") && gameOb.transform.rotation.eulerAngles.z == 0) || (namePiece.Contains("(1)") && gameOb.transform.rotation.eulerAngles.z == 180);
+                        break;  
+
+                    case 90:
+                    case 270:
+                        return (namePiece.Contains("(1)") && gameOb.transform.rotation.eulerAngles.z == 90) || (namePiece.Contains("(1)") && gameOb.transform.rotation.eulerAngles.z == 270);   
+                }
+                break;
+
+            case string n when n.Contains("(3)"):
+                switch (gameObject.transform.rotation.eulerAngles.z)
+                {
+                    case 0:
+                        return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 0;
+                        break;
+                    case 90:
+                        return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 90;
+                        break;
+
+                    case 180:
+                        return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 180;
+                        break;
+                    case 270:
+                        return namePiece.Contains("(3)") && gameOb.transform.rotation.eulerAngles.z == 270;
+                        break;
+                }
+                break;
+
+            case string n when n.Contains("(2)"):
+                switch (gameObject.transform.rotation.eulerAngles.z)
+                {
+                    case 0:
+                        return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 0;
+                        break;
+                    case 90:
+                        return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 90;
+                        break;
+
+                    case 180:
+                        return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 180;
+                        break;
+                    case 270:
+                        return namePiece.Contains("(2)") && gameOb.transform.rotation.eulerAngles.z == 270; 
+                        break;
+                }
+                break;
+        }
+        return false;
+    }
+    
 }
 

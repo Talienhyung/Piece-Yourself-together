@@ -3158,6 +3158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -4720,6 +4721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -9807,6 +9809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -9989,6 +9992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -16797,6 +16801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -19204,6 +19209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -29730,6 +29736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -29804,7 +29811,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 0bfad3847287ffb4e85e1789865bd7d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fbbab4bd352d2914fa3ca7934680ebd2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -30153,7 +30160,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -35961,6 +35968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -36093,6 +36101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -38513,6 +38522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -41076,6 +41086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -46356,6 +46367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -46774,6 +46786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -47049,6 +47062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -48325,6 +48339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -55531,6 +55546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -64672,6 +64688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -70096,6 +70113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -70371,6 +70389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -71361,6 +71380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -76784,6 +76804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -80093,6 +80114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -84570,6 +84592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -84988,6 +85011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -85263,6 +85287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
@@ -88112,6 +88137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  locked: 0
   gridObject: {fileID: 1971157342}
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}

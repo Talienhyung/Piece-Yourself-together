@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class SpawnBlocks : MonoBehaviour
@@ -20,6 +21,16 @@ public class SpawnBlocks : MonoBehaviour
     private bool isSpecialEventActive = false;
     private int specialEventTickCounter = 0;
 
+    public GameObject loveTextPrefab;
+    public GameObject traumaTextPrefab;
+    public GameObject restTextPrefab;
+    public GameObject mentalRestTextPrefab;
+
+    public string[] loveMessages;
+    public string[] traumaMessages;
+    public string[] restMessages;
+    public string[] mentalRestMessages;
+
     private enum SpecialEventType
     {
         Love,
@@ -40,6 +51,27 @@ public class SpawnBlocks : MonoBehaviour
             Tick();
             timer = 0f; // Reset the timer
         }
+    }
+
+    private void SpawnNonInteractableText(string[] messages, GameObject textPrefab)
+    {
+        // Randomly select a message from the provided array
+        int randomIndex = Random.Range(0, messages.Length);
+        string message = messages[randomIndex];
+
+        // Spawn the text object at the spawn point
+        GameObject newText = Instantiate(textPrefab, spawnPoint.position, Quaternion.identity);
+
+        // Set the text content
+        newText.GetComponent<TextMeshPro>().text = message;
+
+        // Add Rigidbody component to enable gravity
+        Rigidbody2D rb = newText.AddComponent<Rigidbody2D>();
+        rb.gravityScale = customGravity;
+
+        // Add CustomGravity component to control gravity behavior
+        CustomGravity customGravityComponent = newText.AddComponent<CustomGravity>();
+        customGravityComponent.downwardForce = customGravity;
     }
 
     private void Tick()

@@ -78,10 +78,10 @@ public class SpawnBlocks : MonoBehaviour
 
         // Add Rigidbody component to enable gravity
         Rigidbody2D rb = newText.AddComponent<Rigidbody2D>();
-        rb.gravityScale = 0.5f; // Adjust the gravity scale to make it slower
+        rb.gravityScale = 0.2f; // Adjust the gravity scale to make it slower
 
         // Set initial angular velocity to create a slight turn
-        rb.angularVelocity = 20f;
+        rb.angularVelocity = 15f;
 
         // Add CustomGravity component to control gravity behavior
         CustomGravity customGravityComponent = newText.AddComponent<CustomGravity>();

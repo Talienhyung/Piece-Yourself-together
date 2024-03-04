@@ -68,6 +68,7 @@ public class Draggable : MonoBehaviour
         if (!locked)
         {
             isDragging = false;
+            blockPositions.Clear();
             blockdetect();
             if (onTile())
             {

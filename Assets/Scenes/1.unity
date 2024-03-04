@@ -3158,9 +3158,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &57868072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4698,7 +4706,7 @@ GameObject:
   - component: {fileID: 91852978}
   - component: {fileID: 91852977}
   m_Layer: 3
-  m_Name: Trauma
+  m_Name: Trauma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4716,9 +4724,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &91852978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9688,7 +9704,7 @@ GameObject:
   - component: {fileID: 184681185}
   - component: {fileID: 184681186}
   m_Layer: 3
-  m_Name: Violet
+  m_Name: Violet_cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9703,7 +9719,7 @@ Transform:
   m_GameObject: {fileID: 184681179}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.03, y: 3.2, z: 217.28957}
+  m_LocalPosition: {x: -16.01, y: 3.32, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9799,9 +9815,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!1 &187976741
 GameObject:
   m_ObjectHideFlags: 0
@@ -9977,9 +10001,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &189313773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16781,9 +16813,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &325786443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19154,7 +19194,7 @@ GameObject:
   - component: {fileID: 390278079}
   - component: {fileID: 390278078}
   m_Layer: 3
-  m_Name: Violet (5)
+  m_Name: Violet (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19172,9 +19212,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &390278079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19262,7 +19310,7 @@ Transform:
   m_GameObject: {fileID: 390278077}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.46, y: 3.28, z: 217.28957}
+  m_LocalPosition: {x: -22.09, y: 3.3, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21423,6 +21471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446207486}
   - component: {fileID: 446207485}
+  - component: {fileID: 446207487}
   m_Layer: 0
   m_Name: Silhouette
   m_TagString: Untagged
@@ -21497,6 +21546,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446207487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446207484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2791cd9404f79f74ca8c5b152d7e3daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 100
+  background: {fileID: 1192049653}
 --- !u!1 &450555091
 GameObject:
   m_ObjectHideFlags: 0
@@ -29680,9 +29743,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &672453995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29749,8 +29820,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0bfad3847287ffb4e85e1789865bd7d7, type: 3}
+=======
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: fbbab4bd352d2914fa3ca7934680ebd2, type: 3}
+>>>>>>> main
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -30074,6 +30150,7 @@ GameObject:
   - component: {fileID: 687425755}
   - component: {fileID: 687425754}
   - component: {fileID: 687425757}
+  - component: {fileID: 687425758}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -30251,6 +30328,58 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!212 &687425758
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687425753}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &689070029
 GameObject:
   m_ObjectHideFlags: 0
@@ -35889,7 +36018,7 @@ GameObject:
   - component: {fileID: 811772840}
   - component: {fileID: 811772839}
   m_Layer: 3
-  m_Name: Yellow
+  m_Name: Yellow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35907,9 +36036,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &811772840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35996,7 +36133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811772838}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.98, y: -0.72, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36035,9 +36172,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &817639055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38451,9 +38596,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &879580551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40992,7 +41145,7 @@ GameObject:
   - component: {fileID: 932769292}
   - component: {fileID: 932769291}
   m_Layer: 3
-  m_Name: Neutral
+  m_Name: Neutral (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41010,9 +41163,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &932769292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46286,9 +46447,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1085424026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46700,9 +46869,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 0.6
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1099477070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46790,7 +46967,7 @@ Transform:
   m_GameObject: {fileID: 1099477068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.02, y: 3.34, z: 217.28957}
+  m_LocalPosition: {x: -16.96, y: 3.41, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46953,7 +47130,7 @@ GameObject:
   - component: {fileID: 1110165405}
   - component: {fileID: 1110165404}
   m_Layer: 3
-  m_Name: Violet (4)
+  m_Name: Violet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46971,9 +47148,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1110165405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48243,9 +48428,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1141171603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49720,6 +49913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1192049655}
   - component: {fileID: 1192049654}
+  - component: {fileID: 1192049656}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -49794,6 +49988,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1192049656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192049653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2791cd9404f79f74ca8c5b152d7e3daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 100
+  background: {fileID: 1192049653}
 --- !u!1 &1192170065
 GameObject:
   m_ObjectHideFlags: 0
@@ -55242,7 +55450,7 @@ GameObject:
   - component: {fileID: 1327002835}
   - component: {fileID: 1327002834}
   m_Layer: 3
-  m_Name: Violet (2)
+  m_Name: Violet (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55260,9 +55468,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1327002835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55350,7 +55566,7 @@ Transform:
   m_GameObject: {fileID: 1327002833}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.95, y: 3.16, z: 217.28957}
+  m_LocalPosition: {x: -17.82, y: 3.39, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -64379,7 +64595,7 @@ GameObject:
   - component: {fileID: 1558260623}
   - component: {fileID: 1558260622}
   m_Layer: 3
-  m_Name: Pink (2)
+  m_Name: Pink (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64397,9 +64613,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 1192049653}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1558260623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64487,7 +64711,7 @@ Transform:
   m_GameObject: {fileID: 1558260621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.46, y: 1.57, z: 217.28957}
+  m_LocalPosition: {x: -20.57, y: 1.33, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -68685,7 +68909,11 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: fa8827e2293d2ea4ab76dd66a27e3897, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
+<<<<<<< HEAD
   m_Volume: 0.49
+=======
+  m_Volume: 0
+>>>>>>> main
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -68777,8 +69005,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681147959}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.92, y: 0.1, z: 0}
+>>>>>>> main
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69817,9 +70050,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1702156258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70070,7 +70311,7 @@ GameObject:
   - component: {fileID: 1714608524}
   - component: {fileID: 1714608523}
   m_Layer: 3
-  m_Name: Trauma (1)
+  m_Name: Trauma (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70088,9 +70329,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1714608524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71056,7 +71305,7 @@ GameObject:
   - component: {fileID: 1733583112}
   - component: {fileID: 1733583111}
   m_Layer: 3
-  m_Name: Violet (3)
+  m_Name: Violet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71074,9 +71323,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1733583112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76475,7 +76732,7 @@ GameObject:
   - component: {fileID: 1853690196}
   - component: {fileID: 1853690195}
   m_Layer: 3
-  m_Name: Pink (4)
+  m_Name: Pink (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76493,9 +76750,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 1192049653}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1853690196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76583,7 +76848,7 @@ Transform:
   m_GameObject: {fileID: 1853690194}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.04, y: 1.4, z: 217.28957}
+  m_LocalPosition: {x: -16.19, y: 1.44, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79780,7 +80045,7 @@ GameObject:
   - component: {fileID: 1936370174}
   - component: {fileID: 1936370173}
   m_Layer: 3
-  m_Name: Yellow (1)
+  m_Name: Yellow (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79798,9 +80063,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1936370174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81047,6 +81320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1971157343}
+  - component: {fileID: 1971157344}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -81651,6 +81925,20 @@ Transform:
   - {fileID: 383478731}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971157344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971157342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2791cd9404f79f74ca8c5b152d7e3daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 100
+  background: {fileID: 1192049653}
 --- !u!1 &1975602768
 GameObject:
   m_ObjectHideFlags: 0
@@ -84239,7 +84527,7 @@ GameObject:
   - component: {fileID: 2039071804}
   - component: {fileID: 2039071803}
   m_Layer: 3
-  m_Name: Neutral (1)
+  m_Name: Neutral (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84257,9 +84545,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 0}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2039071804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84653,7 +84949,7 @@ GameObject:
   - component: {fileID: 2046530606}
   - component: {fileID: 2046530605}
   m_Layer: 3
-  m_Name: Pink (1)
+  m_Name: Pink (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84671,9 +84967,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 1192049653}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2046530606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84761,7 +85065,7 @@ Transform:
   m_GameObject: {fileID: 2046530604}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.23, y: 1.44, z: 217.28957}
+  m_LocalPosition: {x: -19.17, y: 1.47, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84924,7 +85228,7 @@ GameObject:
   - component: {fileID: 2053261430}
   - component: {fileID: 2053261429}
   m_Layer: 3
-  m_Name: Pink (3)
+  m_Name: Pink (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84942,9 +85246,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 1192049653}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2053261430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85032,7 +85344,7 @@ Transform:
   m_GameObject: {fileID: 2053261428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.51, y: 1.62, z: 217.28957}
+  m_LocalPosition: {x: -21.92, y: 1.29, z: 217.28957}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -87769,7 +88081,7 @@ GameObject:
   - component: {fileID: 2131426754}
   - component: {fileID: 2131426753}
   m_Layer: 3
-  m_Name: Pink
+  m_Name: Pink (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87787,9 +88099,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
   dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
   volume: 1
+=======
+  background: {fileID: 1192049653}
+  gridObject: {fileID: 1971157342}
+  blockPositions: []
+  gameObjectList: []
+  scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2131426754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88319,28 +88639,28 @@ SceneRoots:
   - {fileID: 687425756}
   - {fileID: 1182783107}
   - {fileID: 184681181}
-  - {fileID: 1099477073}
   - {fileID: 1327002838}
+  - {fileID: 1099477073}
   - {fileID: 1733583115}
   - {fileID: 1110165408}
   - {fileID: 390278082}
   - {fileID: 2131426757}
+  - {fileID: 1853690199}
   - {fileID: 2046530609}
   - {fileID: 1558260626}
   - {fileID: 2053261433}
-  - {fileID: 1853690199}
-  - {fileID: 811772843}
   - {fileID: 1936370177}
+  - {fileID: 811772843}
   - {fileID: 57868075}
   - {fileID: 879580554}
   - {fileID: 1702156261}
-  - {fileID: 932769295}
   - {fileID: 2039071807}
+  - {fileID: 932769295}
   - {fileID: 817639058}
   - {fileID: 1085424029}
   - {fileID: 189313776}
-  - {fileID: 91852981}
   - {fileID: 1714608527}
+  - {fileID: 91852981}
   - {fileID: 325786446}
   - {fileID: 672453998}
   - {fileID: 1141171606}

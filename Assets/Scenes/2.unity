@@ -4698,7 +4698,7 @@ GameObject:
   - component: {fileID: 91852978}
   - component: {fileID: 91852977}
   m_Layer: 3
-  m_Name: Trauma
+  m_Name: Trauma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9688,7 +9688,7 @@ GameObject:
   - component: {fileID: 184681185}
   - component: {fileID: 184681186}
   m_Layer: 3
-  m_Name: Violet
+  m_Name: Violet_cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18252,6 +18252,14 @@ MonoBehaviour:
   - {fileID: 1110165403}
   - {fileID: 390278077}
   specialEventDurationTicks: 12
+  loveTextPrefab: {fileID: 0}
+  traumaTextPrefab: {fileID: 0}
+  restTextPrefab: {fileID: 0}
+  mentalRestTextPrefab: {fileID: 0}
+  loveMessages: []
+  traumaMessages: []
+  restMessages: []
+  mentalRestMessages: []
 --- !u!4 &369043755
 Transform:
   m_ObjectHideFlags: 0
@@ -19154,7 +19162,7 @@ GameObject:
   - component: {fileID: 390278079}
   - component: {fileID: 390278078}
   m_Layer: 3
-  m_Name: Violet (5)
+  m_Name: Violet (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35889,7 +35897,7 @@ GameObject:
   - component: {fileID: 811772840}
   - component: {fileID: 811772839}
   m_Layer: 3
-  m_Name: Yellow
+  m_Name: Yellow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37704,6 +37712,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &846911137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846911140}
+  - component: {fileID: 846911139}
+  - component: {fileID: 846911138}
+  m_Layer: 0
+  m_Name: TextPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &846911138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846911137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: cde01b0d565a77e499406c7956b92a75, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: test
+--- !u!222 &846911139
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846911137}
+  m_CullTransparentMesh: 1
+--- !u!224 &846911140
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846911137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.03973891}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -14.59, y: -2.37}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &855789987
 GameObject:
   m_ObjectHideFlags: 0
@@ -40992,7 +41079,7 @@ GameObject:
   - component: {fileID: 932769292}
   - component: {fileID: 932769291}
   m_Layer: 3
-  m_Name: Neutral
+  m_Name: Neutral (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46953,7 +47040,7 @@ GameObject:
   - component: {fileID: 1110165405}
   - component: {fileID: 1110165404}
   m_Layer: 3
-  m_Name: Violet (4)
+  m_Name: Violet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55242,7 +55329,7 @@ GameObject:
   - component: {fileID: 1327002835}
   - component: {fileID: 1327002834}
   m_Layer: 3
-  m_Name: Violet (2)
+  m_Name: Violet (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64379,7 +64466,7 @@ GameObject:
   - component: {fileID: 1558260623}
   - component: {fileID: 1558260622}
   m_Layer: 3
-  m_Name: Pink (2)
+  m_Name: Pink (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70070,7 +70157,7 @@ GameObject:
   - component: {fileID: 1714608524}
   - component: {fileID: 1714608523}
   m_Layer: 3
-  m_Name: Trauma (1)
+  m_Name: Trauma (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71056,7 +71143,7 @@ GameObject:
   - component: {fileID: 1733583112}
   - component: {fileID: 1733583111}
   m_Layer: 3
-  m_Name: Violet (3)
+  m_Name: Violet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76475,7 +76562,7 @@ GameObject:
   - component: {fileID: 1853690196}
   - component: {fileID: 1853690195}
   m_Layer: 3
-  m_Name: Pink (4)
+  m_Name: Pink (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79780,7 +79867,7 @@ GameObject:
   - component: {fileID: 1936370174}
   - component: {fileID: 1936370173}
   m_Layer: 3
-  m_Name: Yellow (1)
+  m_Name: Yellow (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84239,7 +84326,7 @@ GameObject:
   - component: {fileID: 2039071804}
   - component: {fileID: 2039071803}
   m_Layer: 3
-  m_Name: Neutral (1)
+  m_Name: Neutral (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84653,7 +84740,7 @@ GameObject:
   - component: {fileID: 2046530606}
   - component: {fileID: 2046530605}
   m_Layer: 3
-  m_Name: Pink (1)
+  m_Name: Pink (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84924,7 +85011,7 @@ GameObject:
   - component: {fileID: 2053261430}
   - component: {fileID: 2053261429}
   m_Layer: 3
-  m_Name: Pink (3)
+  m_Name: Pink (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87769,7 +87856,7 @@ GameObject:
   - component: {fileID: 2131426754}
   - component: {fileID: 2131426753}
   m_Layer: 3
-  m_Name: Pink
+  m_Name: Pink (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88353,3 +88440,4 @@ SceneRoots:
   - {fileID: 1681147962}
   - {fileID: 446207486}
   - {fileID: 1971157343}
+  - {fileID: 846911140}

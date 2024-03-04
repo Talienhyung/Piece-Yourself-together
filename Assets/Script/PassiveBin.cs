@@ -33,7 +33,7 @@ public class PassiveBin : MonoBehaviour
             // Trigger game over here
             Debug.Log("Game Over!");
             // You can add your game over logic here, such as displaying a game over screen or resetting the game.
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOver");
         }
     }
 

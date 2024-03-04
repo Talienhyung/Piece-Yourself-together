@@ -12,6 +12,18 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void CreditsButton()
+    {
+        SceneManager.LoadScene("Credits");
+
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene("MainMenu");
+
+    }
+
     public void SettingsButton()
     {
         settingsWindow.SetActive(true);

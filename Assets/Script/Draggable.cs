@@ -10,6 +10,30 @@ public class Draggable : MonoBehaviour
     private Vector3 endpos;
     private bool isRightButtonDown = false;
     public GameObject gridObject;
+    private bool isRightButtonDown = false;
+    private Vector3 originalScale;
+    public AudioClip pickupSound;
+    public AudioClip dropSound;
+
+    private int originalSortingOrder;
+    private Renderer objectRenderer;
+
+    public float volume = 1.0f;
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        audioSource.volume = volume;
+
+        originalScale = transform.localScale;
+        objectRenderer = GetComponent<Renderer>();
+        originalSortingOrder = objectRenderer.sortingOrder;
+    }
 
     public List<Vector3> blockPositions = new List<Vector3>();
     public List<GameObject> gameObjectList = new List<GameObject>();
@@ -20,11 +44,37 @@ public class Draggable : MonoBehaviour
         {
             isDragging = true;
             offset = gameObject.transform.position - GetMouseWorldPos();
+            // Scale up the object
+            transform.localScale *= 1.1f; // You can adjust the scale factor as needed
+
+            // Play pickup sound
+            if (pickupSound != null)
+            {
+                audioSource.PlayOneShot(pickupSound);
+            }
+
+            // Set the sorting order higher than other blocks
+            objectRenderer.sortingOrder = GetHighestSortingOrder() + 1;
+        }
+        else if (Input.GetMouseButton(1)) // Right mouse button
+        {
+            RotateObject();
         }
     }
 
     private void OnMouseUp()
     {
+       
+        transform.localScale = originalScale;
+
+        objectRenderer.sortingOrder = originalSortingOrder;
+
+    
+        if (dropSound != null)
+        {
+            audioSource.PlayOneShot(dropSound);
+        }
+    
         if (!locked) {
             isDragging = false;
             blockdetect();
@@ -32,28 +82,28 @@ public class Draggable : MonoBehaviour
             {
                 switch (name)
                 {
-                    case string n when n.Contains("cube"):
-                        endpos = blockPositions[0];
-                        break;
+                case string n when n.Contains("cube"):
+                    endpos = blockPositions[0];
+                    break;
 
-                    case string n when n.Contains("(0)"):
-                        endpos = blockPositions[0] + new Vector3(-0.2f, -0.2f, 0f);
-                        break;
+                case string n when n.Contains("(0)"):
+                    endpos = blockPositions[0] + new Vector3(-0.2f, -0.2f, 0f);
+                    break;
 
-                    case string n when n.Contains("(4)"):
-                        switch (gameObject.transform.rotation.eulerAngles.z)
-                        {
-                            case 0:
-                            case 180:
-                                endpos = blockPositions[0] + new Vector3(-0.2f, 0f, 0f);
-                                break;
+                case string n when n.Contains("(4)"):
+                    switch (gameObject.transform.rotation.eulerAngles.z)
+                    {
+                        case 0:
+                        case 180:
+                            endpos = blockPositions[0] + new Vector3(-0.2f, 0f, 0f);
+                            break;
 
-                            case 90:
-                            case 270:
-                                endpos = blockPositions[0] + new Vector3(0f, -0.2f, 0f);
-                                break;
-                        }
-                        break;
+                        case 90:
+                        case 270:
+                            endpos = blockPositions[0] + new Vector3(0f, -0.2f, 0f);
+                            break;
+                    }
+                    break;
 
                     case string n when n.Contains("(1)"):
                         switch (gameObject.transform.rotation.eulerAngles.z)
@@ -450,3 +500,30 @@ public class Draggable : MonoBehaviour
     }
 }
 
+    IEnumerator WaitAndRotate()
+    {
+        isRightButtonDown = true;
+        yield return new WaitForSeconds(0.05f); // Wait for 0.05 seconds
+
+        // Check again if right mouse button is down after 0.05 seconds
+        if (isRightButtonDown)
+        {
+            RotateObject();
+        }
+    }
+
+    private int GetHighestSortingOrder()
+    {
+        // Find the highest sorting order among all objects in the scene
+        int highestSortingOrder = int.MinValue;
+        Renderer[] renderers = FindObjectsOfType<Renderer>();
+        foreach (Renderer renderer in renderers)
+        {
+            if (renderer.sortingOrder > highestSortingOrder)
+            {
+                highestSortingOrder = renderer.sortingOrder;
+            }
+        }
+        return highestSortingOrder;
+    }
+}

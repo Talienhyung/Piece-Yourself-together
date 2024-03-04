@@ -20,6 +20,16 @@ public class SpawnBlocks : MonoBehaviour
     private bool isSpecialEventActive = false;
     private int specialEventTickCounter = 0;
 
+    private enum SpecialEventType
+    {
+        Love,
+        Trauma,
+        Rest,
+        MentalRest
+    }
+
+    private SpecialEventType currentSpecialEventType; // To store the current special event type
+
     // Update is called once per frame
     void Update()
     {
@@ -45,8 +55,22 @@ public class SpawnBlocks : MonoBehaviour
             }
             else
             {
-                // Spawn special object during the special event
-                SpawnLoveObject();
+                // Spawn the appropriate special event object based on the current special event type
+                switch (currentSpecialEventType)
+                {
+                    case SpecialEventType.Love:
+                        SpawnLoveObject();
+                        break;
+                    case SpecialEventType.Trauma:
+                        SpawnTraumaObject();
+                        break;
+                    case SpecialEventType.Rest:
+                        SpawnRestObject();
+                        break;
+                    case SpecialEventType.MentalRest:
+                        SpawnMentalRestObject();
+                        break;
+                }
             }
         }
         else
@@ -64,6 +88,8 @@ public class SpawnBlocks : MonoBehaviour
             }
         }
     }
+
+
 
     private void SpawnNormalBlock()
     {
@@ -221,6 +247,30 @@ public class SpawnBlocks : MonoBehaviour
     {
         isSpecialEventActive = true;
         specialEventTickCounter = 0; // Reset the tick counter
+
+        // Decide which special event to activate based on their respective probabilities
+        float randomEventChance = Random.Range(0f, 100f);
+        float loveChance = 50f;
+        float traumaChance = 5f;
+        float restChance = 30f;
+        float mentalRestChance = 15f;
+
+        if (randomEventChance < loveChance)
+        {
+            currentSpecialEventType = SpecialEventType.Love;
+        }
+        else if (randomEventChance < loveChance + traumaChance)
+        {
+            currentSpecialEventType = SpecialEventType.Trauma;
+        }
+        else if (randomEventChance < loveChance + traumaChance + restChance)
+        {
+            currentSpecialEventType = SpecialEventType.Rest;
+        }
+        else
+        {
+            currentSpecialEventType = SpecialEventType.MentalRest;
+        }
     }
 }
 

@@ -3158,11 +3158,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &57868072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3229,7 +3235,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1cf8e800a04089e418e11a61344fb297, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4718,11 +4724,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &91852978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4789,7 +4801,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 6940b4ee214a2dd49a1b25f6ce792a38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9753,7 +9765,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 402165b246599054e91c65185b930926, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9803,11 +9815,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!1 &187976741
 GameObject:
   m_ObjectHideFlags: 0
@@ -9983,11 +10001,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &189313773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10054,7 +10078,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5b3afd83c87dbab4cb2aa1c11d95f41d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16789,11 +16813,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &325786443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16860,7 +16890,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a68e59b79ca0f8649b95e8f8b8b9271a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18290,7 +18320,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   passivBin: {fileID: 225520305}
-  yOffset: 0.5
+  yOffset: 0.1
+  gameOverY: 6.66
 --- !u!1 &375480103
 GameObject:
   m_ObjectHideFlags: 0
@@ -19181,11 +19212,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &390278079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19252,7 +19289,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ec5e8f424ad6ebe4baff9185447adc11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21482,7 +21519,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 487a76d997b3ca24983f8d66aa63b6e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29706,11 +29743,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &672453995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29777,8 +29820,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 0bfad3847287ffb4e85e1789865bd7d7, type: 3}
+=======
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: fbbab4bd352d2914fa3ca7934680ebd2, type: 3}
+>>>>>>> main
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -30153,7 +30201,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.29
+  orthographic size: 5.37
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -30178,7 +30226,7 @@ Transform:
   m_GameObject: {fileID: 687425753}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.75, y: 1.98, z: -10}
+  m_LocalPosition: {x: -1.71, y: 1.34, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30191,12 +30239,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687425753}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5e733942ae85ecf49b45b662d482d277, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f74c77e708be0334287a7c2a3dfa675d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.042
+  m_Volume: 0.475
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -35988,11 +36036,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &811772840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36059,7 +36113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7893422fbee648d488f4eb29549c79f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -36118,11 +36172,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &817639055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36189,7 +36249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8512dba087fba20449f4bbd443837a23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -38536,11 +38596,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &879580551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38607,7 +38673,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b9b0ac3972ce4f04ba0461eeb501af3c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -41097,11 +41163,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &932769292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41168,7 +41240,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9a5fd36acbc1b5b49bd4132dc9f7f37b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -46375,11 +46447,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1085424026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46446,7 +46524,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c47ec84f14bc3c545aff97ba7fedd8ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -46791,11 +46869,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 0.6
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1099477070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46862,7 +46946,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a9f5e67bb2805134bb038ee420751c4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -47064,11 +47148,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1110165405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47135,7 +47225,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 4b997ced6e9d34049a5e1ed2a392d338, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -48338,11 +48428,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1141171603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48409,7 +48505,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9e9654810f8a1d44ea1f1aa2237b6b18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49866,7 +49962,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: db43d6d7a8b6b6142ad5f56f307b422b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b0b24426e06e60448bbc472d3ac74870, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -55372,11 +55468,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1327002835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55443,7 +55545,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 01aadae091b92614caa3f89f8e082e4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -64511,11 +64613,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 1192049653}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1558260623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64582,7 +64690,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 27db385cb7e28854fa11702e7e038ce4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -68787,7 +68895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playlist:
-  - {fileID: 8300000, guid: 5e733942ae85ecf49b45b662d482d277, type: 3}
+  - {fileID: 8300000, guid: 5f6eb8fb960650b46873e663e598250c, type: 3}
   audioSource: {fileID: 1681147961}
 --- !u!82 &1681147961
 AudioSource:
@@ -68801,9 +68909,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: fa8827e2293d2ea4ab76dd66a27e3897, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
+<<<<<<< HEAD
+  m_Volume: 0.49
+=======
   m_Volume: 0
+>>>>>>> main
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -68893,8 +69005,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681147959}
   serializedVersion: 2
+<<<<<<< HEAD
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.92, y: 0.1, z: 0}
+>>>>>>> main
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69933,11 +70050,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1702156258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70004,7 +70127,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 974cc8216df431c438c4916f7cbdede9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -70206,11 +70329,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1714608524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70277,7 +70406,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d32719f95fbc8004dbd2ca52bf35d7e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -71194,11 +71323,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1733583112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71265,7 +71400,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5a5499cfdbe7e4e408ff18b6bbfec39e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -76615,11 +76750,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 1192049653}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1853690196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76686,7 +76827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5cc2977d40712c0479c8446b5e5f0687, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -79455,7 +79596,7 @@ Transform:
   m_GameObject: {fileID: 1923721059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.99, y: 9.22, z: 59.885498}
+  m_LocalPosition: {x: -6.99, y: 7.7, z: 59.885498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79922,11 +80063,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &1936370174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79993,7 +80140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 062395664bd721c4994cc36f069cec22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84398,11 +84545,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 0}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2039071804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84469,7 +84622,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 38eb0394c0841a14894af0f0a8fb2a3c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84814,11 +84967,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 1192049653}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2046530606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84885,7 +85044,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8a2c42498e16a46478ec1e26330c3895, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -85087,11 +85246,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 1192049653}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2053261430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85158,7 +85323,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2ec50f752f2de2a48af4b91bb23cbd8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -87934,11 +88099,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d8e699453b30e43beb27b072ac24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  pickupSound: {fileID: 8300000, guid: 4eff735820a77fc40a1ee08e073e1fd1, type: 3}
+  dropSound: {fileID: 8300000, guid: 53d43e23c3bf49149a7a53b59648a378, type: 3}
+  volume: 1
+=======
   background: {fileID: 1192049653}
   gridObject: {fileID: 1971157342}
   blockPositions: []
   gameObjectList: []
   scrollSpeed: 100
+>>>>>>> main
 --- !u!114 &2131426754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88005,7 +88176,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2c76d57cc58e7f84bb1c6d853650f386, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -88496,9 +88667,9 @@ SceneRoots:
   - {fileID: 1923721060}
   - {fileID: 369043755}
   - {fileID: 1192049655}
-  - {fileID: 446207486}
   - {fileID: 1016438458}
   - {fileID: 806219012}
   - {fileID: 225520307}
-  - {fileID: 1971157343}
   - {fileID: 1681147962}
+  - {fileID: 446207486}
+  - {fileID: 1971157343}
